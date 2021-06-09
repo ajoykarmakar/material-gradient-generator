@@ -51,25 +51,25 @@ class MaterialGradientGenerator {
     * scenario where you want to access specific colours
     * directly from the frontend. **/
         const colours: Colours = {
-            Red: `linear-gradient(to bottom right,  ${materialColours.red[this._darkShade]}, ${materialColours.red[this._lightShade]})`,
-            Pink: `linear-gradient(to bottom right, ${materialColours.pink[this._darkShade]}, ${materialColours.pink[this._lightShade]})`,
-            Purple: `linear-gradient(to bottom right, ${materialColours.purple[this._darkShade]}, ${materialColours.purple[this._lightShade]})`,
-            DeepPurple: `linear-gradient(to bottom right, ${materialColours.deepPurple[this._darkShade]}, ${materialColours.deepPurple[this._lightShade]})`,
-            Indigo: `linear-gradient(to bottom right, ${materialColours.indigo[this._darkShade]}, ${materialColours.indigo[this._lightShade]})`,
-            Blue: `linear-gradient(to bottom right, ${materialColours.blue[this._darkShade]}, ${materialColours.blue[this._lightShade]})`,
-            LightBlue: `linear-gradient(to bottom right, ${materialColours.lightBlue[this._darkShade]}, ${materialColours.lightBlue[this._lightShade]})`,
-            Cyan: `linear-gradient(to bottom right, ${materialColours.cyan[this._darkShade]}, ${materialColours.cyan[this._lightShade]})`,
-            Teal: `linear-gradient(to bottom right, ${materialColours.teal[this._darkShade]}, ${materialColours.teal[this._lightShade]})`,
-            Green: `linear-gradient(to bottom right, ${materialColours.green[this._darkShade]}, ${materialColours.green[this._lightShade]})`,
-            LightGreen: `linear-gradient(to bottom right, ${materialColours.lightGreen[this._darkShade]}, ${materialColours.lightGreen[this._lightShade]})`,
-            Lime: `linear-gradient(to bottom right, ${materialColours.lime[this._darkShade]}, ${materialColours.lime[this._lightShade]})`,
-            Yellow: `linear-gradient(to bottom right, ${materialColours.yellow[this._darkShade]}, ${materialColours.yellow[this._lightShade]})`,
-            Amber: `linear-gradient(to bottom right, ${materialColours.amber[this._darkShade]}, ${materialColours.amber[this._lightShade]})`,
-            Orange: `linear-gradient(to bottom right, ${materialColours.orange[this._darkShade]}, ${materialColours.orange[this._lightShade]})`,
-            DeepOrange: `linear-gradient(to bottom right, ${materialColours.deepOrange[this._darkShade]}, ${materialColours.deepOrange[this._lightShade]})`,
-            Brown: `linear-gradient(to bottom right, ${materialColours.brown[this._darkShade]}, ${materialColours.brown[this._lightShade]})`,
-            Grey: `linear-gradient(to bottom right, ${materialColours.grey[this._darkShade]}, ${materialColours.grey[this._lightShade]})`,
-            BlueGrey: `linear-gradient(to bottom right, ${materialColours.blueGrey[this._darkShade]}, ${materialColours.blueGrey[this._lightShade]})`
+            Red = [red[400], red[200]];
+  Pink = [pink[400], pink[200]];
+  Purple = [purple[400], purple[200]];
+  DeepPurple = [deepPurple[400], deepPurple[200]];
+  Indigo = [indigo[400], indigo[200]];
+  Blue = [blue[400], blue[200]];
+  LightBlue = [lightBlue[400], lightBlue[200]];
+  Cyan = [cyan[400], cyan[200]];
+  Teal = [teal[400], teal[200]];
+  Green = [green[400], green[200]];
+  LightGreen = [lightGreen[400], lightGreen[200]];
+  Lime = [lime[400], lime[200]];
+  Yellow = [yellow[400], yellow[200]];
+  Amber = [amber[400], amber[200]];
+  Orange = [orange[400], orange[200]];
+  DeepOrange = [deepOrange[400], deepOrange[200]];
+  Brown = [brown[400], brown[200]];
+  Grey = [grey[400], grey[200]];
+  BlueGrey = [blueGrey[400], blueGrey[200]];
         };
 
         return colours;
